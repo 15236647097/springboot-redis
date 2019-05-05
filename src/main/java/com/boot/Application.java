@@ -11,8 +11,6 @@ import org.springframework.context.annotation.Configuration;
  * Created by wyn on 2019/1/23.
  */
 @Configuration
-@EnableAutoConfiguration
-@ComponentScan
 @SpringBootApplication // 组件扫描
 @MapperScan("com.boot.mapper")
 public class Application {

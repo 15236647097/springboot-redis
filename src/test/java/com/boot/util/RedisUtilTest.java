@@ -43,7 +43,7 @@ public class RedisUtilTest {
 
     @Test
     public void get() throws Exception {
-        List value = (List) redisUtil.get("asdfa");
+        Object value = redisUtil.get("user-redis-session:1");
         System.out.println(value);
     }
 
@@ -65,6 +65,8 @@ public class RedisUtilTest {
 
     @Test
     public void hget() throws Exception {
+        Object value = redisUtil.hget("spring:session:sessions:0fa024a1-034c-452a-97cb-a81d30f6c0d1","creationTime");
+        System.out.println(value);
     }
 
     @Test

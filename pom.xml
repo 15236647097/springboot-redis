@@ -50,7 +50,6 @@
             <!--<artifactId>spring-boot-starter-thymeleaf</artifactId>-->
         <!--</dependency>-->
         <!-- redis依赖 -->
-        <!-- redis -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
@@ -61,12 +60,6 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.6.1</version>
             <scope>compile</scope>
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<artifactId>guava</artifactId>-->
-                    <!--<groupId>com.google.guava</groupId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
         </dependency>
         <!-- swagger ui界面 -->
         <dependency>
@@ -74,12 +67,6 @@
             <artifactId>springfox-swagger2</artifactId>
             <version>2.6.1</version>
             <scope>compile</scope>
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<artifactId>guava</artifactId>-->
-                    <!--<groupId>com.google.guava</groupId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
         </dependency>
         <!-- junit -->
         <dependency>
